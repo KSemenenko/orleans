@@ -16,6 +16,8 @@ namespace Orleans.Streaming.NATS
 
         public global::NATS.Client.Core.NatsOpts? NatsClientOptions { get { throw null; } set { } }
 
+        public int NumReplicas { get { throw null; } set { } }
+
         public int PartitionCount { get { throw null; } set { } }
 
         public int ProducerCount { get { throw null; } set { } }
